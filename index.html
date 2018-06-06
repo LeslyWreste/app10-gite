@@ -1,0 +1,672 @@
+﻿<!doctype html>
+<html>
+
+ <head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title> Proyecto Final_DSUPE </title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema10.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+
+<body onLoad="MM_preloadImages('imagenes/130730-basura.jpg','imagenes/basura_9.jpg','imagenes/monumentos/2401451_orig.jpg','images/PSINT/pse1.png','images/operadores.jpg','images/images.jpeg','images/descarga.png','images/VISUAL/image001.jpg','images/LOL2.png')">
+
+ <div data-role="page" id="Principal" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1> Tutorial de Programacion Estructurada</h1>
+  </div> 
+  
+  <img src="images/VISUAL/images.jpg" width="100%" height="400px">
+<div data-role="main" class="iu-content">
+  
+  </div>
+  
+
+  <div>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Elementos básicos de la programación estructurada</h2>
+       
+      
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> ¿Qué es un algorítmo? </h2>
+      
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> ¿Cómo hacer un algorítmo y para qué nos sirve? </h2>
+         
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> ¿Qué es DFD y para que nos sirve?</h2>
+        
+      </a>      
+     </li> 
+      <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> ¿Cómo se hace un diagrama de flujo? </h2>
+         
+      </a>      
+     </li> 
+      <li class="ui-first-child ui-last-child">
+      <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> ¿Qué es un Pseudocodigo? </h2>
+         
+      </a>      
+     </li> 
+      <li class="ui-first-child ui-last-child">
+      <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Aplicación de un algorítmo a pseudocodigo </h2>
+         
+      </a>      
+     </li> 
+      <li class="ui-first-child ui-last-child">
+      <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> ¿Qué es C#? </h2>
+         
+      </a>      
+     </li> 
+      <li class="ui-first-child ui-last-child">
+      <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> ¡¡Diferencia entre Algorítmo y Programa!!</h2>
+       
+      </a>      
+     </li> 
+      <li class="ui-first-child ui-last-child">
+      <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Datos del Desarrollador </h2>
+         
+      </a>      
+     </li> 
+    </ul>
+  </div>
+  <div dara-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="css/mdpi.png" width="56" height="auto">
+   </div>
+   <div>
+    <h4>Aplicación Diez</h4>
+    <h4>Lesly Milan Wreste </h4>
+   </div>
+  </div>
+  
+ </div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1> Elementos básicos de la programación </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+       <h1 p>¿Qué es una variable?</h1 p>
+         <p> Es una palabra o identificador creado por el programador para asignarle valores</p>
+         
+      <h1 p>¿Qué es una constante?</h1 p>
+        <p> En programacion es un valor que no puede ser alterado durante la ejecucion de un programa</p>
+        <div> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','images/images.jpeg',1)"><img src="images/images (1).png" width="521" height="282" id="Image35"></a></div>
+         
+      <h1 p>Operadores Aritméticos</h1 p>
+       <p>Son aquellos que MANIPULAN datos numéricos, tanto enteros como reales. Hay 2 tipos de operadores: unarios y binarios.Los primeros anteponen la expresion aritmetica y son los operadores de signo. Los otros operadores se situan entre 2 expresiones aritméticas.</p>
+      <div> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','images/operadores.jpg',1)"><img src="images/images.png" width="512" height="288" id="Image34"></a></div>
+      
+      <h1 p> Lenguaje de programación</h1 p>
+        <p> Es un conjunto de palabras con cierta base sintática y semantica para construir instrucciones que formaun un programa de computadora; estas comprenden un conjunto de palabras resesvadas propias, las cuales tienen su base sintatica de uso y su base semántica</p>
+        <div> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','images/descarga.png',1)"><img src="images/images (1).jpeg" width="512" height="288" id="Image30"></a></div>
+   </div>
+  
+   <!--ESTO ES UN BTN DE LINK-->
+  
+  <div style="text-align: center;">
+  <a id="vinculo" class="ui-btn ui-btn-corner-all ui-btn-inline" href="http://www.monografias.com/trabajos94/diseno-algoritmos-programacion-computadoras/diseno-algoritmos-programacion-computadoras.shtml" target="_self"> Para mas info. presiona </a>
+  </div>
+  <!--Y AQUI TERMINA-->
+  </div>
+  
+    
+    </div>
+  <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="css/mdpi.png" width="56" height="auto">
+   </div>
+   <h4>Aplicación Diez_LMW</h4>
+  </div>
+ </div>
+ </div>
+    <!---------------------------------------------------------------------------------------------------------------------------------------->
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1> ¿Qué es un algoritmo?</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   
+<br>
+<p>
+Es una lista finita y ordenada de los pasos necesarios para llegar a una solucion de un problema especifico.
+</p>
+<p>
+	Un algoritmo es conceptual y puede ser descrito usando el lenguaje natural que usamos día a día, diagramas de flujo o pseudocódigo.
+	Un algoritmo puede implementarse en diferentes lenguajes de programación.
+	Un algoritmo es la receta para resolver un conjunto de problemas.Es un conjunto de instrucciones que indican paso a paso que hay que hacer.
+
+</p>
+<br>
+<h2>Esto es un ejemplo de lo antes mencionado pero ya en un diagrama de flujo</h2>
+<div>
+<img src="images/DFD/maxresdefault.jpg" width="70%" height="720">
+ 
+ </div>
+ 
+  <!--ESTO ES UN BTN DE LINK-->
+  
+  <div style="text-align: center;">
+  <a id="vinculo" class="ui-btn ui-btn-corner-all ui-btn-inline" href="http://www.monografias.com/trabajos94/diseno-algoritmos-programacion-computadoras/diseno-algoritmos-programacion-computadoras.shtml" target="_self"> Para mas info. presiona </a>
+  </div>
+  <!--Y AQUI TERMINA-->
+  </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="css/mdpi.png" width="56" height="auto">
+   </div>
+   <h4>Aplicación Diez_LMW</h4>
+  </div>
+ </div>
+ 
+ 
+<!----------------------------------------------------------------------------------------------------------------------------------->
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Paso a paso de un algoritmo</h1> 
+</div>
+<div data-role="content" align="center">
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/a3_ordinograma_05.jpg" alt="a3_ordinograma_05" title="a3_ordinograma_05" id="wows2_0"/></li>
+		<li><img src="data2/images/descarga.jpg" alt="descarga" title="descarga" id="wows2_1"/></li>
+		<li><img src="data2/images/diagrama1b.jpg" alt="diagrama1b" title="diagrama1b" id="wows2_2"/></li>
+		<li><img src="data2/images/diagrama2.jpg" alt="diagrama2" title="diagrama2" id="wows2_3"/></li>
+		<li><img src="data2/images/diagrama3.jpg" alt="diagrama3" title="diagrama3" id="wows2_4"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/diagrama5.jpg" alt="wow slider" title="diagrama5" id="wows2_5"/></a></li>
+		<li><img src="data2/images/diagrama6.jpg" alt="diagrama6" title="diagrama6" id="wows2_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="a3_ordinograma_05"><span><img src="data2/tooltips/a3_ordinograma_05.jpg" alt="a3_ordinograma_05"/>1</span></a>
+		<a href="#" title="descarga"><span><img src="data2/tooltips/descarga.jpg" alt="descarga"/>2</span></a>
+		<a href="#" title="diagrama1b"><span><img src="data2/tooltips/diagrama1b.jpg" alt="diagrama1b"/>3</span></a>
+		<a href="#" title="diagrama2"><span><img src="data2/tooltips/diagrama2.jpg" alt="diagrama2"/>4</span></a>
+		<a href="#" title="diagrama3"><span><img src="data2/tooltips/diagrama3.jpg" alt="diagrama3"/>5</span></a>
+		<a href="#" title="diagrama5"><span><img src="data2/tooltips/diagrama5.jpg" alt="diagrama5"/>6</span></a>
+		<a href="#" title="diagrama6"><span><img src="data2/tooltips/diagrama6.jpg" alt="diagrama6"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   <div>
+<p>Lo básico que puedes hacer para identificar un problema es lo siguiente:</p>
+<ul>
+<h2 li>Identificar el problema</h2 li>
+  <p>En el enunciado del problema se pretende que debe ser claro y preciso.</p>
+<h2 li>Analizar el problema</h2 li>
+  <p>Leer el enunciado cuantas veces sea necesario si tambien como el objetivo que debe saber que se requiere para la solucion.</p> 
+
+<h2 li>Hacer el análisis de los datos:</h2 li>
+  <p>Datos de entrada</p>
+    <p>Proceso de datos</p>
+      <p>Salida de datos</p>
+</ul>  
+ <!--MI COLAPSABLE-->
+   <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1> Por último: </h1>
+    <p>La realizacion de un algorítmo debera cumplir con las que indicaron para posteriormente implementarse en un lenguaje de programacion comprensible por una computadora.</p>
+   <h2> Implementación de los algoritmos:</h2>
+    <p>La implementacion de los algoritmos se debe realizar en un lenguaje de programacion para que una coputadora pueda comprender las instrucciones que el adgoritmo modela para así poder ejecutarlas y lograr el resultado esperado.</p>
+    <p>En el último paso ya podemos hablar de una aplicacion o programa de computadora, que estará compuesto por una serie de instrucciones que ordenadas una tras otra logran representar los algoritmos diseñados y dar asi solución a los requerimientos identificados.</p>
+ 
+   <!--ESTO ES UN BTN DE LINK-->
+  
+  <div style="text-align: center;">
+  <a id="vinculo" class="ui-btn ui-btn-corner-all ui-btn-inline" href="http://www.monografias.com/trabajos94/diseno-algoritmos-programacion-computadoras/diseno-algoritmos-programacion-computadoras.shtml" target="_self"> Para mas info. presiona </a>
+  </div>
+  <!--Y AQUI TERMINA-->
+  </div>
+    <!--TERMINA AQUI COLAPSABLE-->
+    </div>
+    </div>
+  <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="css/mdpi.png" width="56" height="auto">
+   </div>
+   <h4>Aplicación Diez_LMW</h4>
+  </div>
+  
+</div>
+</div>
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------>
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1> Datos </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   <h2>¿Que es DFD?</h2>
+<br>
+<p>
+Es una descripción gráfica-simbolica de un algoritmo utilizando distintas figuras y flechas que las unen. Convenientes para algoritmos simples ya que cuando crecen se convierten en un “diagrama espagueti" difícil de seguir. En la actualidad son poco utilizados. En pocas palabras nos indica el flujo logico de cada paso ya definido.
+</p>
+<div>
+  <img src="images/DFD/Capture-14.jpg">
+</div>
+<br>
+<!--MI COLAPSABLE-->
+   <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1> -Simbologia basica del diagrama de flujo- </h1>
+    <div>
+     <p>El ovalo indica el inicio y el final del diagrama de flujo.</p>
+     <p>El trapecio indica recibir una variable</p>
+     <p>El ovalo indica el inicio y el final deo un dato de entrada usando el teclado.</p>
+     <p>El cono horizontal indica enviar el contenido de una variable a salida, representa el monitos de la pantalla. Debemos indicar que mande el mensje de salida poniendo el texto entre comillas a los esxtremos.</p>
+     <p>El romboide indica recibir una variable o algun dato de entrada  usando el teclado o enviar un dato contenido en una variable en la salida.</p>
+     <p>El rectangulo indica proceso de datos. Hacer un calculo de operaciones aritmeticas</p>
+     <p>El pentagono para conectar segmentos de diagramas de una pagina a otra, usar numero o letra secuencial a su interior.</p>
+     <p>El circulo se utiliza oara conectar segmentos de diagrama en la misma pagina, utilizar numeros o una letra secuencial en su interior.</p>
+
+    </div>
+   
+   <!--ESTO ES UN BTN DE LINK-->
+  
+  <div style="text-align: center;">
+  <a id="vinculo" class="ui-btn ui-btn-corner-all ui-btn-inline" href="http://www.monografias.com/trabajos94/diseno-algoritmos-programacion-computadoras/diseno-algoritmos-programacion-computadoras.shtml" target="_self"> Para mas info. presiona </a>
+  </div>
+  <!--Y AQUI TERMINA-->
+  </div>
+    <!--TERMINA AQUI COLAPSABLE-->
+   </div>
+   </div>
+  
+  </div>
+  <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="css/mdpi.png" width="56" height="auto"/>
+   </div>
+   <h4>Aplicación Diez_LMW</h4>
+  </div>
+ </div>
+<!------------------------------------------------------------------------------------------------------------------------------------>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Propiedades</h1> 
+  </div>
+  <div data-role="content" align="center">
+  <div>
+   <h2> Algunas de las propiedades del diagrama de flujo(DFD) son las siguientes;</h2>
+    <br>
+    1-.Un diagrama de flujo siempre se realiza de arriba hacia abajo y de izquierda a derecha.
+    <br>
+    2-.Las flechas siempre tocan al simbolo superior y al simboo inferior.
+    <br>
+    3-.Las flechas de flujo nunca se cruzan.
+</div>
+      <!--MI COLAPSABLE-->
+   <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1> -Simbologia basica del diagrama de flujo- </h1>
+    <div>
+     <img src="images/DFD/factura_DFD.jpg">
+     <p>El ovalo indica el inicio y el final del diagrama de flujo.</p>
+     <p>El trapecio indica recibir una variable</p>
+     <p>El ovalo indica el inicio y el final deo un dato de entrada usando el teclado.</p>
+     <p>El cono horizontal indica enviar el contenido de una variable a salida, representa el monitos de la pantalla. Debemos indicar que mande el mensje de salida poniendo el texto entre comillas a los esxtremos.</p>
+     <p>El romboide indica recibir una variable o algun dato de entrada  usando el teclado o enviar un dato contenido en una variable en la salida.</p>
+     <p>El rectangulo indica proceso de datos. Hacer un calculo de operaciones aritmeticas</p>
+     <p>El pentagono para conectar segmentos de diagramas de una pagina a otra, usar numero o letra secuencial a su interior.</p>
+     <p>El circulo se utiliza oara conectar segmentos de diagrama en la misma pagina, utilizar numeros o una letra secuencial en su interior.</p>
+
+    </div>
+   
+   <!--ESTO ES UN BTN DE LINK-->
+  
+  <div style="text-align: center;">
+  <a id="vinculo" class="ui-btn ui-btn-corner-all ui-btn-inline" href="http://www.monografias.com/trabajos94/diseno-algoritmos-programacion-computadoras/diseno-algoritmos-programacion-computadoras.shtml" target="_self"> Para mas info. presiona </a>
+  </div>
+  <!--Y AQUI TERMINA-->
+  </div>
+    <!--TERMINA AQUI COLAPSABLE-->
+   </div>
+  
+  </div>
+     
+  
+  </div>
+<div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="css/mdpi.png" width="56" height="auto">
+   </div>
+   <h4> Aplicación Diez_LMW</h4>
+  </div>
+ </div>
+ <!----------------------------------------------------------------------------->
+ 
+ 
+ <!------------------------------------------------------------------------------------------------------------------------------------>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>¿Que es?</h1> 
+  </div>
+  <div data-role="content" align="center">
+  <div>
+   <h2>¿Para que sirve el Pseudocodigo?</h2>
+     <p>    PSeInt está pensado para asistir a los estudiantes que se inician en la construcción de programas o algoritmos computacionales. El pseudocódigo se suele utilizar como primer contacto para introducir conceptos básicos como el uso de estructuras de control, expresiones, variables, etc, sin tener que lidiar con las particularidades de la sintaxis de un lenguaje real. Este software pretende facilitarle al principiante la tarea de escribir algoritmos en este pseudolenguaje presentando un conjunto de ayudas y asistencias, y brindarle ademas algunas herramientas adicionales que le ayuden a encontrar errores y comprender la lógica de los algoritmos.</p>
+     <br>
+     <img src="images/Captura de pantalla 2018-06-05 07.02.43.png" width="500" height="300">
+     <h2>Caracteristicas y Funcionalidades de PSeInt:</h2>
+     <ul>
+ <li>	Presenta herramientas de edición para escribir algoritmos en pseudocodigo en español</li>
+<li>Autocompletado</li>
+<li>Ayudas Emergentes</li>
+<li>Plantillas de Comandos</li>
+<li>Coloreado de Sintaxis</li>
+<li>Resaltado de bloques lógicos</li>
+<li>Indentado Inteligente</li>
+<li>Listados de funciones, operadores y variables</li>
+<li>Permite generar y editar el diagrama de flujo del algoritmo</li>
+<li>Puede trabajar con diagramas clásicos y de Nassi-Shneiderman</li>
+<li>Permite la edición simultánea de múltiples algoritmos</li>
+<li>El pseudo-lenguaje utilizado es configurable</li>
+<li>Ofrece perfiles de configuración predefinidos para numerosas instituciones</li>
+<li>Puede interpretar (ejecutar) los algoritmos escritos</li>
+<li>Puede modificar el algoritmo y ver los cambios en la ejecución inmediatamente (sin reingresar los datos)</li>
+<li>Permite modificar uno o más datos selectos de una ejecución ya finalizada para observar cómo varían los resultados</li>
+<li>Permite deshacer una ejecución para reiniciarla o repetirla desde un punto arbitrario</li>
+<li>Permite ejecutar el algoritmo paso a paso controlando la velocidad e inspeccionando variables y expresiones</li>
+<li>Puede confeccionar automáticamente una tabla de prueba de escritorio</li>
+<li>Ofrece un modo especial en el que describe las acciones realizadas en cada paso</li>
+<li>Determina y marca claramente los errores</li>
+<li>Señala errores de sintaxis en tiempo real (mientras escribe)</li>
+<li>Señala claramente errores en tiempo de ejecucion</li>
+<li>Ofrece descripciones detalladas de cada error, con sus causas y soluciones más frecuentes.</li>
+<li>Permite convertir el algoritmo de pseudocodigo a código numerosos lenguajes de programación</li>
+<li>C, C++, C#, Java, JavaScript, MatLab, Pascal, PHP, Python 2, Python 3, QBasic Visual Basic</li>
+<li>Ofrece un sistema de ayuda integrado acerca del pseudocódigo y el uso del programa</li>
+<li>Incluye un conjunto de ejemplos de diferentes niveles de dificultad</li>
+<li>Es multiplataforma (probado en Microsoft Windows, GNU/Linux y Mac OS X)</li>
+<li>Es totalmente libre y gratuito (licencia GPLv2)</li>
+
+</ul>
+<div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','images/PSINT/pse1.png',1)"><img src="images/cap.jpg" width="500" height="300" id="Image29"></a> </div>
+  
+  </div>
+     
+  
+  </div>
+<div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="css/mdpi.png" width="56" height="auto">
+   </div>
+   <h4> Aplicación Diez_LMW</h4>
+  </div>
+ </div>
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+
+ <!------------------------------------------------------------------------------------------------------------------------------------>
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Aplicacion de algoritmo a pseudo</h1> 
+  </div>
+  <div data-role="content" align="center">
+  <div>
+   <h2> Algoritmo :</h2>
+      <h2 p>Para el Ejemplo; </h2 p>
+      <p>El pago del recibo de la luz se calcula con el criterio; "el que mas gasta mas paga", por eso hasta 300kw consumidos, cada kw tiene un precio, los kw consumidos adicionales se cobran con el 15% más del precio original.
+      Calcular cuanto se pagará por cierta cantidad de KW consumidos.</p>
+    <div>
+      <img src="images/capy.jpg"> 
+    </div>
+
+       <!--MI COLAPSABLE-->
+   <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1> Imagenes relacionadas con el tema: </h1>
+    <div>
+      <img src="images/code.png" width="845" height="457">
+     <br>
+     <div>
+      <img src="images/kwsconsumidos.mwl.png" width="845" height="457">
+     <br> 
+    </div>
+  </div>
+    <!--TERMINA AQUI COLAPSABLE-->
+      
+      
+  </div>
+  </div>
+     </div>
+  
+  </div>
+<div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="css/mdpi.png" width="56" height="auto">
+   </div>
+   <h4> Aplicación Diez_LMW</h4>
+  </div>
+ </div>
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+ <!------------------------------------------------------------------------------------------------------------------------------------>
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>C#</h1> 
+  </div>
+  <div data-role="content" align="center">
+  <div>
+   <h2> Datos interesantes</h2>
+      <p>Es un lenguaje de programacion orientada a objetos desarrollado y estandarizado or Microsoft.Su sintáxis básica derivada de c/C++ y utiliza el modelo de objetos de la plataforma .NET</p>
+      <P>Como se deduce del párrafo anterior es posible programar la plataforma.NET en practicamente cualquier lenguaje, pero Microsoft ha decidido sacar uno nuevo porque ha visto conveniente por disponer de un lenguaje diseñado desde 0 con vistas a ser utilizados en .NET</P>
+    <div> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image48','','images/VISUAL/image001.jpg',1)"><img src="images/VISUAL/lenguaje-csharp.png" width="600" height="300" id="Image48"></a></div>
+    
+     <!--MI COLAPSABLE-->
+   <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1> Estructura y ejemplos:</h1>
+      <p>La estructura principal para los codigos en C# es la siguiente;</p>
+        <p>Cuando nombramos a las variables hay que tener en cuenta que para C# las mayusculas y minusculas son diferentes.</p>
+        <h2 p>Para declarar una variable</h2 p>
+           <p>Para declarar una variable es muy sencillo y para varias variables son solo en una linea;</p>
+             
+               <li>double;</li>
+               <li>string;</li>
+               <li>int;</li>
+               <br>
+                <!--ESTO ES UN BTN DE LINK-->
+  
+  <div style="text-align: center;">
+  <a id="vinculo" class="ui-btn ui-btn-corner-all ui-btn-inline" href="https://www.youtube.com/watch?v=wn6hMEIOD1U" target="_self"> Para mas info. presiona </a>
+  </div>
+  <!--Y AQUI TERMINA-->
+  </div>
+             
+    <!--TERMINA AQUI COLAPSABLE-->
+      
+  </div>
+  <br>
+  <h2 p>A continuacion un problema y su solucion;</h2 p>
+  En un supermercado se tiene la promoción del descuento del 20% en articulos de farmacia. Hacer un programa para que la cajera cobre los articulos a los clientes.
+  <br>
+    <div> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image49','','images/LOL2.png',1)"><img src="images/LO1.png" width="600" height="350" id="Image49"></a></div>
+    <br>
+    <h2>Esto es la ejecucuion del codigo anterior</h2>
+    <br>
+    <img src="images/LOL3.png" width="600" height="350">
+    </div>
+     </div>
+  
+  </div>
+<div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="css/mdpi.png" width="56" height="auto">
+   </div>
+   <h4> Aplicación Diez_LMW</h4>
+  </div>
+ </div>
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+
+ <!------------------------------------------------------------------------------------------------------------------------------------>
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>¿Cual es la diferencia?</h1> 
+  </div>
+  <div data-role="content" align="center">
+  <div>
+   <p>
+   Aunque pueden confundirse, por ejemplo los dos son un conjunto de instrucciones, representan dos conceptos muy distintos. Un algoritmo es más parecido a una idea, una forma de resolver un problema, mientras que un programa está más ligado a la realización de una o más tareas por una computadora.
+   <br>
+Un programa puede implementar uno o varios algoritmos, o puede ser tan simple que la idea de algoritmo es poco aplicable. La tarea de un programador suele empezar diseñando algoritmos para resolver los problemas planteados y luego implementarlos e incluirlos en un programa.
+<br>
+Cuando hablamos de programa siempre existe la idea de que será ejecutado por una computadora mientras que un algoritmopodría ser ejecutado por una persona.
+Un programa está escrito en lenguaje máquina o por lo menos en un lenguaje que pueda ser compilado o interpretado por algún tipo de máquina (a veces una máquina virtual).
+
+   </p>
+   <br>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/capture14.jpg" alt="Capture-14" title="Capture-14" id="wows1_0"/></li>
+		<li><img src="data1/images/factura_dfd.jpg" alt="factura_DFD" title="factura_DFD" id="wows1_1"/></li>
+		<li><img src="data1/images/pseint.jpg" alt="pseint" title="pseint" id="wows1_2"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/images.png" alt="slider" title="images" id="wows1_3"/></a></li>
+		<li><img src="data1/images/image001.jpg" alt="image001" title="image001" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Capture-14"><span><img src="data1/tooltips/capture14.jpg" alt="Capture-14"/>1</span></a>
+		<a href="#" title="factura_DFD"><span><img src="data1/tooltips/factura_dfd.jpg" alt="factura_DFD"/>2</span></a>
+		<a href="#" title="pseint"><span><img src="data1/tooltips/pseint.jpg" alt="pseint"/>3</span></a>
+		<a href="#" title="images"><span><img src="data1/tooltips/images.png" alt="images"/>4</span></a>
+		<a href="#" title="image001"><span><img src="data1/tooltips/image001.jpg" alt="image001"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  </div>
+     
+  
+  </div>
+<div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="css/mdpi.png" width="56" height="auto">
+   </div>
+   <h4> Aplicación Diez_LMW</h4>
+  </div>
+ </div>
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+
+ <!------------------------------------------------------------------------------------------------------------------------------------>
+<div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>DATOS DEL DESARROLLADOR</h1> 
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h2>Nombre de la escuela:</h2>
+   <p>Centro de Bachillerato Tecnologico Industrial de Servicios No.16</p>
+   <br>
+   <div>
+      <img src="images/20180527_160415.jpg" height="50px" width="70">
+   </div>
+   <h2>Nombre del alumn@:</h2>
+   <p>Lesly Milan Wreste</p>
+   <br>
+   <h2>Nombre del docente:</h2>
+   <p>Jose Antonio Lopez H.</p>
+   <br>
+   <h2>Grado y grupo</h2>
+   <p>4° "E"</p>
+   <br>
+   <h2>Especialidad:</h2>
+   <p>Programación</p>
+   <br>
+    <h2>Submódulo:</h2>
+   <p>Diseño De Aplicaciones Móviles(DAM)</p>
+   <br>
+   <h2>Tipo de trabajo:</h2>
+   <p>Proyecto final No.10(TUTORIAL DESUPE)</p>
+   <br>
+  </div>
+     
+  
+  </div>
+<div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="css/mdpi.png" width="56" height="auto">
+   </div>
+   <h4> Aplicación Diez_LMW</h4>
+  </div>
+ </div>
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+</body>
+</html>
+        
+        
